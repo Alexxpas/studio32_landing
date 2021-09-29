@@ -17,7 +17,8 @@ body{
 p{
     font-size: 28px;
     font-weight: 500;
-    height: 30vh;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -48,10 +49,6 @@ a:after {
     left: 0; 
   }
 
-.wrap{
-    display: flex;
-    flex-direction: column;
-}
 
   @media only screen and (max-width: 700px) {
     .wrap{
